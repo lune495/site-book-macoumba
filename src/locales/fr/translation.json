@@ -1,0 +1,312 @@
+{
+  "header": {
+    "home": "Accueil",
+    "buyNow": "Acheter maintenant",
+    "language": "Langue"
+  },
+  "banner": {
+    "subheading": "Roman historique et fiction littéraire",
+    "title": "Découvrez l'univers littéraire de Macoumba Dieng",
+    "buyBook": "Acheter le livre sur Amazon",
+    "freeChapterQuestion": "Intéressé par un chapitre gratuit ?",
+    "freeChapterCta": "Obtenez-le maintenant",
+    "items": {
+      "expert": "Apprenez en détail avec des experts",
+      "chapters": "16 chapitres inclus",
+      "formats": "eBook disponible en iBooks, PDF et ePub",
+      "audio": "Livre audio inclus avec chaque achat"
+    }
+  },
+  "feature2": {
+    "title": "À qui s'adresse ce livre",
+    "description": "De par sa technique d'écriture conceptuelle, Dieng préfère transporter son lectorat dans une série de dénouements spectaculaires et de rebondissements sans fin, le tout étayé par une belle intrigue fortement structurée.",
+    "items": {
+      "entrepreneurs": {
+        "title": "Entrepreneurs",
+        "text": "Des idées claires pour mieux décider et accélérer votre progression."
+      },
+      "projectManagers": {
+        "title": "Chefs de projet",
+        "text": "Des méthodes pratiques pour mieux organiser, piloter et livrer."
+      },
+      "students": {
+        "title": "Étudiants",
+        "text": "Des bases solides et applicables pour progresser plus vite."
+      }
+    }
+  },
+  "about": {
+    "subheading": "Auteur, romancier et poète",
+    "title": "À propos du livre",
+    "description": "De par son profond attachement à la littérature, Macoumba Dieng s'impose dans un paysage littéraire qui reflète sans ambages la société humaine dans sa globalité. Porté par une philosophie affirmée et une technique d'écriture maîtrisée, il évolue dans cet univers fascinant à travers des récits historiques teintés de fiction, animés par des personnages dynamiques inscrits dans un cadre temporel précis.",
+    "cta": "En savoir plus",
+    "items": {
+      "awards": {
+        "title": "Une plume reconnue dans le paysage littéraire",
+        "text": "Une écriture exigeante, nourrie par la recherche et saluée pour la force de ses récits."
+      },
+      "devices": {
+        "title": "Lisez sur n'importe quel appareil",
+        "text": "Disponible en formats papier, numérique et audio selon votre style de lecture."
+      },
+      "journey": {
+        "title": "Un voyage inoubliable",
+        "text": "Plongez dans une histoire qui vous transportera dans un autre monde."
+      }
+    }
+  },
+  "features": {
+    "title": "Ce que vous découvrirez",
+    "description": "Ce livre est une œuvre captivante, idéale pour tous ceux qui aiment les récits fascinants.",
+    "left": {
+      "item1": {
+        "title": "Un ancrage historique fort",
+        "text": "Des faits historiques servent de socle à une narration vivante et accessible."
+      },
+      "item2": {
+        "title": "Une fiction littéraire maîtrisée",
+        "text": "L'auteur construit une intrigue solide où la fiction enrichit le réel avec finesse."
+      },
+      "item3": {
+        "title": "Des personnages dynamiques",
+        "text": "Chaque personnage évolue dans un cadre temporel précis et donne du relief au récit."
+      }
+    },
+    "right": {
+      "item1": {
+        "title": "Des rebondissements continus",
+        "text": "Le lecteur est entraîné dans une suite de dénouements spectaculaires."
+      },
+      "item2": {
+        "title": "Une intrigue fortement structurée",
+        "text": "Le fil narratif reste cohérent, rythmé et riche en tensions dramatiques."
+      },
+      "item3": {
+        "title": "Une vision du monde sensible",
+        "text": "Les récits portent une profondeur émotionnelle et une esthétique littéraire marquée."
+      }
+    }
+  },
+  "chapter": {
+    "title": "Chapitres que nous avons abordés",
+    "description": "Ses récits, qui expriment allègrement sa vision du monde, portent un soubassement émotionnel à fort caractère esthétique, qu'il a su transposer avec délicatesse dans ses différentes productions.",
+    "items": {
+      "chapter1": {
+        "subtitle": "Chapitre 1",
+        "title": "L'essor du design de tendance",
+        "text": "Un chapitre clair et utile pour poser de bonnes bases."
+      },
+      "chapter2": {
+        "subtitle": "Chapitre 2",
+        "title": "Processus data science",
+        "text": "Une approche pratique pour comprendre les étapes essentielles."
+      },
+      "chapter3": {
+        "subtitle": "Chapitre 3",
+        "title": "Créativité appliquée",
+        "text": "Des exercices simples pour transformer vos idées en actions."
+      },
+      "chapter4": {
+        "subtitle": "Chapitre 4",
+        "title": "Construire de bonnes habitudes",
+        "text": "Des méthodes concrètes pour progresser avec régularité."
+      },
+      "chapter5": {
+        "subtitle": "Chapitre 5",
+        "title": "Prise de décision efficace",
+        "text": "Comment choisir plus vite et mieux dans les situations réelles."
+      },
+      "chapter6": {
+        "subtitle": "Chapitre 6",
+        "title": "Communication claire",
+        "text": "Techniques pour mieux exprimer vos idées et convaincre."
+      },
+      "chapter7": {
+        "subtitle": "Chapitre 7",
+        "title": "Leadership personnel",
+        "text": "Développer discipline, focus et confiance dans la durée."
+      },
+      "chapter8": {
+        "subtitle": "Chapitre 8",
+        "title": "Gestion des priorités",
+        "text": "Mettre l'énergie au bon endroit et avancer sans dispersion."
+      },
+      "chapter9": {
+        "subtitle": "Chapitre 9",
+        "title": "Passer à l'action",
+        "text": "Plan simple pour transformer l'apprentissage en résultats."
+      }
+    }
+  },
+  "poemReveal": {
+    "badge": "Rubrique Poésie",
+    "title": "Poème en Ouverture",
+    "intro": "Un espace immersif pour découvrir le poème du moment. Ouvrez le texte et laissez-vous porter par le rythme.",
+    "openCta": "Ouvrir le poème",
+    "closeCta": "Refermer le poème",
+    "signature": "Macoumba DIENG — Poète / Romancier",
+    "lines": [
+      "POEME : Je m’en souviendrai toujours",
+      "Je me souviens d’un vent paresseux sifflant et bousculant mon univers,",
+      "mon coin douillet, mon tendre foyer.",
+      "Je me souviens d’avoir été cloîtré dans un abri de fortune,",
+      "recouvert de planches fissurées, suspendues de travers.",
+      "Je me souviens d’un pauvre homme qui se noyait, s’agrippant à des illusions,",
+      "blotti contre de faux espoirs de survie.",
+      "Je me souviens quand ils frappaient son corps maigre et sans défense",
+      "à coups de pierres et de bâtons épineux.",
+      "Je me souviens de ses pas errants dans des villes balayées par le vent,",
+      "fuyant les chiens de l’hiver et ses embûches.",
+      "Je me souviens de ses radeaux de messages SOS",
+      "lancés vers les curieux qui passaient au loin.",
+      "Je me souviens de lui, victime de circonstances cruelles,",
+      "tenu loin de la lumière au moment même où pointait le jour.",
+      "Je me souviens aussi de lui, au plus bas, en détresse,",
+      "retombant sur des miettes éparpillées.",
+      "Je me souviens d’eux soufflant sur un feu crépitant",
+      "pour raviver les flammes usées du désespoir.",
+      "Je me souviens d’eux le couvrant de milliers de noms étranges,",
+      "stéréotypes d’un exclu rejeté dans un brouhaha de sons.",
+      "Je me souviens de lui tentant de se relever,",
+      "en haillons, sa silhouette mince criblée de balles.",
+      "Je me souviens de lui cherchant refuge loin des rayons brûlants",
+      "et des visages démoniaques négligés.",
+      "Je me souviens de lui retenant ses larmes, sa peur et son désespoir,",
+      "harcelé par des bourreaux hurlants.",
+      "Je me souviens du conteur racontant les exploits de Jack l’Éventreur,",
+      "le célèbre tueur en série resté non identifié sous son tablier de cuir.",
+      "Alors souvenez-vous toujours des ombres de la mort qui persistent encore,",
+      "étanchant sans fin leur soif éternelle de pouvoir."
+    ]
+  },
+  "cta": {
+    "subheading": "Abonnez-vous maintenant",
+    "title": "Recevez un chapitre gratuit de ce livre",
+    "emailPlaceholder": "Adresse e-mail",
+    "button": "S'abonner",
+    "note": "* eBook disponible en iBooks, PDF et ePub"
+  },
+  "review": {
+    "title": "Avis des lecteurs satisfaits",
+    "description": "Des retours authentiques de lecteurs qui ont adoré cette lecture.",
+    "items": {
+      "item1": {
+        "quote": "Très captivant !",
+        "text": "Un livre qui m'a tenu en haleine du début à la fin.",
+        "designation": "Lecteur passionné"
+      },
+      "item2": {
+        "quote": "Inspirant !",
+        "text": "Une lecture incontournable qui m'a offert une nouvelle perspective.",
+        "designation": "Amatrice de littérature"
+      },
+      "item3": {
+        "quote": "Un chef-d'œuvre !",
+        "text": "Une histoire fascinante avec des personnages mémorables.",
+        "designation": "Critique littéraire"
+      },
+      "item4": {
+        "quote": "Exceptionnel !",
+        "text": "Un récit profond que je n'ai pas pu lâcher.",
+        "designation": "Lectrice assidue"
+      }
+    }
+  },
+  "buyerVoices": {
+    "title": "Ils l'ont acheté et ils en parlent",
+    "description": "Des lecteurs conquis au Canada, en France, aux États-Unis et au Royaume-Uni. Rejoignez-les et commandez votre exemplaire.",
+    "boughtOnLabel": "Acheté sur",
+    "items": {
+      "item1": {
+        "quote": "Une histoire puissante qui m'a tenu éveillée jusqu'à la dernière page.",
+        "location": "France",
+        "store": "Amazon France"
+      },
+      "item2": {
+        "quote": "Une plume captivante, des personnages vivants et une intrigue qu'on n'oublie pas.",
+        "location": "France",
+        "store": "Amazon France"
+      },
+      "item3": {
+        "quote": "Dès les premiers chapitres, j'ai su que c'était un livre à recommander.",
+        "location": "États-Unis",
+        "store": "Amazon US"
+      },
+      "item4": {
+        "quote": "Un roman marquant, élégant et profondément humain. Achat validé à 100%.",
+        "location": "Canada",
+        "store": "Amazon Canada"
+      },
+      "item5": {
+        "quote": "Une lecture profonde et captivante, portée par une écriture remarquable du début à la fin.",
+        "location": "UK",
+        "store": "Amazon UK"
+      }
+    }
+  },
+  "author": {
+    "title": "À propos de l'auteur",
+    "description": "Portrait de l'auteur",
+    "lead": "De par son profond attachement à la littérature, Macoumba Dieng s'impose dans un paysage littéraire qui reflète sans ambages la société humaine dans sa globalité. Porté par une philosophie affirmée et une technique d'écriture maîtrisée, il évolue dans cet univers fascinant à travers des récits historiques teintés de fiction, animés par des personnages dynamiques inscrits dans un cadre temporel précis.",
+    "bio": "De par sa technique d'écriture conceptuelle, Dieng préfère transporter son lectorat dans une série de dénouements spectaculaires et de rebondissements sans fin, le tout étayé par une belle intrigue fortement structurée.",
+    "bio2": "L'auteur lui-même est un passionné de recherches littéraires et est également un fervent poète, comme en témoigne un recueil de poèmes ayant fait l'objet d'une publication dans certains magazines.",
+    "bio3": "Ses récits, qui expriment allègrement sa vision du monde, portent un soubassement émotionnel à fort caractère esthétique, qu'il a su transposer avec délicatesse dans ses différentes productions.",
+    "followPrefix": "Retrouvez-moi sur",
+    "or": "ou",
+    "items": {
+      "item1": "A remporté plus de 10 prix littéraires",
+      "item2": "Très passionné par l'écriture",
+      "item3": "Élu écrivain le plus populaire de l'année"
+    }
+  },
+  "pricing": {
+    "title": "Prix du livre en devises internationales",
+    "description": "Prix de base: 6 680 XOF (estimations indicatives selon le taux de change du jour).",
+    "cta": "Acheter maintenant",
+    "plans": {
+      "usd": {
+        "title": "Prix en dollar (USD)",
+        "subtitle": "Montant estimatif",
+        "text": "Équivalent du prix de base 6 680 XOF.",
+        "features": {
+          "1": "Livre complet",
+          "2": "Achat en ligne",
+          "3": "Livraison selon Amazon",
+          "4": "Paiement securise"
+        }
+      },
+      "eur": {
+        "title": "Prix en euro (EUR)",
+        "subtitle": "Montant estimatif",
+        "text": "Équivalent du prix de base 6 680 XOF.",
+        "features": {
+          "1": "Livre complet",
+          "2": "Achat en ligne",
+          "3": "Livraison selon Amazon",
+          "4": "Paiement securise"
+        }
+      },
+      "jpy": {
+        "title": "Prix en yen (JPY)",
+        "subtitle": "Montant estimatif",
+        "text": "Équivalent du prix de base 6 680 XOF.",
+        "features": {
+          "1": "Livre complet",
+          "2": "Achat en ligne",
+          "3": "Livraison selon Amazon",
+          "4": "Paiement securise"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez l'auteur",
+    "description": "Une question sur le livre ? Envoyez votre message.",
+    "success": "Votre message a été envoyé avec succès.",
+    "namePlaceholder": "Entrez votre nom",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "messagePlaceholder": "Votre message",
+    "note": "* Rassurez-vous. Nous n'envoyons pas de spam.",
+    "send": "Envoyer le message"
+  }
+}

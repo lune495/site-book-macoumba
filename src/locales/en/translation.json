@@ -1,0 +1,312 @@
+{
+  "header": {
+    "home": "Home",
+    "buyNow": "Get it now",
+    "language": "Language"
+  },
+  "banner": {
+    "subheading": "Historical fiction and literary storytelling",
+    "title": "Discover the literary world of Macoumba Dieng",
+    "buyBook": "Buy the book on Amazon",
+    "freeChapterQuestion": "Interested in a free chapter?",
+    "freeChapterCta": "Get it now",
+    "items": {
+      "expert": "Learn from experts in detail",
+      "chapters": "16 chapters included",
+      "formats": "eBook includes iBooks, PDF and ePub versions",
+      "audio": "Audio book included with every purchase"
+    }
+  },
+  "feature2": {
+    "title": "Who This Book Is For",
+    "description": "As Jamal embraces his environment, he faces unexpected adversities that disrupt his peaceful existence. Drawing strength from his cultural heritage and moral values, he pursues knowledge and achieves academic excellence. His intelligence and leadership qualities empower him to rise within a traditional society, ultimately leading him to postgraduate studies at a prestigious university in northern Europe.",
+    "items": {
+      "entrepreneurs": {
+        "title": "Entrepreneurs",
+        "text": "Clear ideas to make better decisions and move faster."
+      },
+      "projectManagers": {
+        "title": "Project Managers",
+        "text": "Practical methods to plan, lead, and deliver effectively."
+      },
+      "students": {
+        "title": "Students",
+        "text": "Strong and actionable foundations to progress faster."
+      }
+    }
+  },
+  "about": {
+    "subheading": "Author, novelist, and poet",
+    "title": "About the book",
+    "description": "Shepherd Down the Meadows narrates the compelling journey of Jamal Durham, a gifted orphan and shepherd, as he navigates the challenges of life in his idyllic village. Following the loss of his parents at a young age, Jamal's resilience shines through as he transforms the land of his birth into a source of inspiration and fulfilment. The story unfolds against the backdrop of a serene river that nourishes both his community and his dreams.",
+    "cta": "Learn more",
+    "items": {
+      "awards": {
+        "title": "A voice recognized in contemporary literature",
+        "text": "A demanding writing style shaped by research and praised for narrative depth."
+      },
+      "devices": {
+        "title": "Read on any device",
+        "text": "Available in print, digital, and audio formats to match your reading style."
+      },
+      "journey": {
+        "title": "An unforgettable journey",
+        "text": "Dive into a story that transports you into another world."
+      }
+    }
+  },
+  "features": {
+    "title": "What You Will Discover",
+    "description": "A captivating book for readers who love insightful and engaging stories.",
+    "left": {
+      "item1": {
+        "title": "A strong historical foundation",
+        "text": "Historical facts provide the backbone of a vivid and accessible narrative."
+      },
+      "item2": {
+        "title": "Controlled literary fiction",
+        "text": "The novel blends fiction with reality through a carefully crafted structure."
+      },
+      "item3": {
+        "title": "Dynamic characters",
+        "text": "Each character evolves within a precise time frame and gives the story momentum."
+      }
+    },
+    "right": {
+      "item1": {
+        "title": "Continuous twists",
+        "text": "Readers are carried through a sequence of striking turning points."
+      },
+      "item2": {
+        "title": "A strongly structured plot",
+        "text": "The narrative remains coherent, paced, and rich in dramatic tension."
+      },
+      "item3": {
+        "title": "A sensitive worldview",
+        "text": "The stories carry emotional depth and a distinctive literary aesthetic."
+      }
+    }
+  },
+  "chapter": {
+    "title": "Chapters We Covered",
+    "description": "Through Jamal's journey, themes of self-reliance, humanism, and the pursuit of dreams are intricately woven, highlighting the virtues that guide him on his path to success.",
+    "items": {
+      "chapter1": {
+        "subtitle": "Chapter 1",
+        "title": "The rise of trend design",
+        "text": "A clear and useful chapter to build strong foundations."
+      },
+      "chapter2": {
+        "subtitle": "Chapter 2",
+        "title": "Data science process",
+        "text": "A practical approach to understand the essential stages."
+      },
+      "chapter3": {
+        "subtitle": "Chapter 3",
+        "title": "Applied creativity",
+        "text": "Simple exercises to turn ideas into action."
+      },
+      "chapter4": {
+        "subtitle": "Chapter 4",
+        "title": "Build better habits",
+        "text": "Concrete methods to improve consistently over time."
+      },
+      "chapter5": {
+        "subtitle": "Chapter 5",
+        "title": "Effective decision making",
+        "text": "How to decide faster and better in real situations."
+      },
+      "chapter6": {
+        "subtitle": "Chapter 6",
+        "title": "Clear communication",
+        "text": "Techniques to express your ideas and persuade effectively."
+      },
+      "chapter7": {
+        "subtitle": "Chapter 7",
+        "title": "Personal leadership",
+        "text": "Develop focus, discipline, and confidence over time."
+      },
+      "chapter8": {
+        "subtitle": "Chapter 8",
+        "title": "Priority management",
+        "text": "Put energy in the right place and progress with clarity."
+      },
+      "chapter9": {
+        "subtitle": "Chapter 9",
+        "title": "Take action",
+        "text": "A simple plan to turn learning into results."
+      }
+    }
+  },
+  "poemReveal": {
+    "badge": "Poetry Feature",
+    "title": "Poem Spotlight",
+    "intro": "A dedicated immersive section for the current poem. Open it and let the rhythm unfold smoothly.",
+    "openCta": "Open the poem",
+    "closeCta": "Close the poem",
+    "signature": "Macoumba DIENG — Poet / Novelist",
+    "lines": [
+      "POEM: I will always remember",
+      "I remember a lazy wind whistling and buffeting my universe,",
+      "my cosy place, my sweet, sweet home.",
+      "I remember being cloistered in a makeshift abode",
+      "cladded with bits of cracking pallets hanging higgledy-piggledy.",
+      "I remember a poor drowning man clutching at straws,",
+      "huddling against false hopes for survival.",
+      "I remember when they pelted his skinny and defenceless",
+      "body with stones and thorny sticks.",
+      "I remember him meandering in windy towns,",
+      "sneaking through hounds of winter and thwarting pitfalls.",
+      "I remember him sending rafts of SOS messages",
+      "to call out rubbernecks and onlookers sailing by.",
+      "I remember him being the victim of unfortunate circumstances,",
+      "hidden from light not to see the day heaving in sight.",
+      "I also remember him down in the dumps, in dire straits,",
+      "falling back over scattered bread crumbs.",
+      "I remember them blowing a crackling fire with glowing embers",
+      "to rekindle the shabby flames of despair.",
+      "I remember them plastering him with myriads of exotic funny names,",
+      "stereotypes of a spurned outcast in a babble of sounds.",
+      "I remember him trying to rise again in tattered rags",
+      "wrapped around his slim silhouette riddled with bullets.",
+      "I remember him sheltering from the striking sunbeams",
+      "and staying away from the unkempt appearance of devilish faces.",
+      "I remember him holding back his tears, his fear and despair",
+      "while being pestered by ranting perpetrators.",
+      "I remember the storyteller narrating the feats of Jack the ripper,",
+      "the famous unidentified serial killer under his leather apron.",
+      "So always, remember the shadows of death lingering on and on",
+      "to quench their everlasting thirst for power."
+    ]
+  },
+  "cta": {
+    "subheading": "Subscribe now",
+    "title": "Get a free chapter of this book",
+    "emailPlaceholder": "Email address",
+    "button": "Subscribe",
+    "note": "* eBook includes iBooks, PDF and ePub versions"
+  },
+  "review": {
+    "title": "Reviews from happy readers",
+    "description": "Authentic feedback from readers who enjoyed the book.",
+    "items": {
+      "item1": {
+        "quote": "Very captivating!",
+        "text": "A beautifully written book that kept me engaged from start to finish.",
+        "designation": "Passionate reader"
+      },
+      "item2": {
+        "quote": "Inspiring!",
+        "text": "This book gave me a fresh perspective on life. A must-read.",
+        "designation": "Literature enthusiast"
+      },
+      "item3": {
+        "quote": "A masterpiece!",
+        "text": "A fascinating story with memorable characters.",
+        "designation": "Literary critic"
+      },
+      "item4": {
+        "quote": "Exceptional!",
+        "text": "A deeply moving story I could not put down.",
+        "designation": "Avid reader"
+      }
+    }
+  },
+  "buyerVoices": {
+    "title": "Readers Who Bought It Share Their Thoughts",
+    "description": "Loved by readers in Canada, France, the United States, and the United Kingdom. Join them and get your copy today.",
+    "boughtOnLabel": "Purchased on",
+    "items": {
+      "item1": {
+        "quote": "A powerful story that kept me up late until the final page.",
+        "location": "Canada",
+        "store": "Amazon Canada"
+      },
+      "item2": {
+        "quote": "Captivating writing, vivid characters, and a plot that stays with you.",
+        "location": "France",
+        "store": "Amazon France"
+      },
+      "item3": {
+        "quote": "From the first chapters, I knew this was a book worth recommending.",
+        "location": "United States",
+        "store": "Amazon US"
+      },
+      "item4": {
+        "quote": "A memorable, elegant, and deeply human novel. Best purchase this month.",
+        "location": "Canada",
+        "store": "Amazon Canada"
+      },
+      "item5": {
+        "quote": "A profound and gripping read, driven by remarkable writing from start to finish.",
+        "location": "UK",
+        "store": "Amazon UK"
+      }
+    }
+  },
+  "author": {
+    "title": "About the author",
+    "description": "Author profile",
+    "lead": "A great literature enthusiast, Macoumba Dieng has established himself in a literary landscape that reflects human society in all its complexity. His philosophy and writing technique now allow him to evolve in this fascinating universe. As a novelist, he explores a narrative genre based on historical facts with a relatively fictional tone, featuring dynamic characters operating within a precise time frame.",
+    "bio": "Through his conceptual writing technique, Dieng prefers to transport his readership through a series of spectacular outcomes and endless twists, all supported by a beautifully structured plot.",
+    "bio2": "The author himself is passionate about literary research and is also an ardent poet, as evidenced by a collection of poems published in several magazines.",
+    "bio3": "His narratives, which joyfully express his worldview, carry an emotional foundation with strong aesthetic character, delicately transposed into his different works.",
+    "followPrefix": "Find me on",
+    "or": "or",
+    "items": {
+      "item1": "Won more than 10 literary awards",
+      "item2": "Highly passionate about writing",
+      "item3": "Voted most popular writer of the year"
+    }
+  },
+  "pricing": {
+    "title": "Book price in international currencies",
+    "description": "Base price: 6,680 XOF (indicative estimates based on daily exchange rates).",
+    "cta": "Buy now",
+    "plans": {
+      "usd": {
+        "title": "Price in US dollar (USD)",
+        "subtitle": "Estimated amount",
+        "text": "Equivalent of the base price 6,680 XOF.",
+        "features": {
+          "1": "Full book",
+          "2": "Online purchase",
+          "3": "Delivery by Amazon",
+          "4": "Secure payment"
+        }
+      },
+      "eur": {
+        "title": "Price in euro (EUR)",
+        "subtitle": "Estimated amount",
+        "text": "Equivalent of the base price 6,680 XOF.",
+        "features": {
+          "1": "Full book",
+          "2": "Online purchase",
+          "3": "Delivery by Amazon",
+          "4": "Secure payment"
+        }
+      },
+      "jpy": {
+        "title": "Price in yen (JPY)",
+        "subtitle": "Estimated amount",
+        "text": "Equivalent of the base price 6,680 XOF.",
+        "features": {
+          "1": "Full book",
+          "2": "Online purchase",
+          "3": "Delivery by Amazon",
+          "4": "Secure payment"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact the author",
+    "description": "Have a question about the book? Send your message.",
+    "success": "Your message was sent successfully.",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email address",
+    "messagePlaceholder": "Your message",
+    "note": "* Rest assured. We will not spam your inbox.",
+    "send": "Send message"
+  }
+}

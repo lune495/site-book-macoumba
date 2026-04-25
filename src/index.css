@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tight-copy,
+.about-section .section-heading p.tight-copy,
+.author-section .section-heading p.tight-copy {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: -0.04em;
+}
+
+.poem-reveal-card {
+  position: relative;
+  padding: 40px 34px;
+  border-radius: 24px;
+  overflow: hidden;
+  background: radial-gradient(circle at 20% 10%, rgba(255, 205, 129, 0.14), rgba(0, 0, 0, 0) 42%),
+    linear-gradient(140deg, #101828 0%, #111c2f 52%, #0d1726 100%);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 0 20px 40px rgba(4, 8, 16, 0.35);
+}
+
+.poem-reveal-card::before {
+  content: "";
+  position: absolute;
+  inset: auto -15% -45% auto;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 172, 93, 0.32) 0%, rgba(255, 172, 93, 0) 68%);
+  pointer-events: none;
+}
+
+.poem-reveal-header {
+  position: relative;
+  z-index: 2;
+}
+
+.poem-reveal-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0f141f;
+  background: linear-gradient(120deg, #ffd37f, #ffb766);
+}
+
+.poem-reveal-title {
+  color: #f8fbff;
+  margin-bottom: 14px;
+}
+
+.poem-reveal-intro {
+  color: rgba(239, 245, 255, 0.88);
+  margin-bottom: 0;
+  max-width: 760px;
+  line-height: 1.75;
+}
+
+.poem-reveal-toggle {
+  margin-top: 26px;
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  transition: all 0.28s ease;
+}
+
+.poem-reveal-toggle:hover {
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-1px);
+}
+
+.poem-reveal-arrow {
+  transition: transform 0.28s ease;
+}
+
+.poem-reveal-arrow.is-open {
+  transform: rotate(180deg);
+}
+
+.poem-reveal-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.55s ease, opacity 0.45s ease, margin-top 0.4s ease;
+  margin-top: 0;
+}
+
+.poem-reveal-content.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  margin-top: 24px;
+}
+
+.poem-reveal-content-inner {
+  overflow: hidden;
+}
+
+.poem-reveal-body {
+  border-radius: 16px;
+  padding: 24px 22px;
+  background: rgba(7, 13, 24, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+}
+
+.poem-reveal-line {
+  margin: 0 0 8px;
+  color: rgba(240, 247, 255, 0.94);
+  font-size: 16px;
+  line-height: 1.7;
+  word-spacing: -0.02em;
+}
+
+.poem-reveal-signature {
+  margin: 18px 0 0;
+  color: #ffd18c;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  .poem-reveal-card {
+    padding: 28px 20px;
+    border-radius: 18px;
+  }
+
+  .poem-reveal-body {
+    padding: 18px 14px;
+  }
+
+  .poem-reveal-line {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+}
+
+/* Softer site palette (less dark) */
+.dark-theme .main-header .main_menu,
+.dark-theme .main-header,
+.dark-theme .menu_fixed,
+.dark-bg,
+.dark-bg-light,
+.dark-bg-light.book-preview {
+  background: #17355f;
+}
+
+.dark-theme .site-navigation {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.dark-theme .navbar-nav .nav-link,
+.dark-theme .menu_fixed .navbar-nav .nav-link,
+.dark-bg h1,
+.dark-bg h2,
+.dark-bg h3,
+.dark-bg h4,
+.dark-bg h5,
+.dark-bg h6,
+.dark-bg-light h1,
+.dark-bg-light h2,
+.dark-bg-light h3,
+.dark-bg-light h4,
+.dark-bg-light h5,
+.dark-bg-light h6 {
+  color: #f8fbff;
+}
+
+.dark-bg p,
+.dark-bg-light p,
+.dark-bg-light .section-heading span,
+.dark-bg .banner-content ul li,
+.dark-bg-light .author-desc li {
+  color: rgba(242, 247, 255, 0.9);
+}
+
+.dark-bg-light .feature-style-2,
+.dark-bg .pricing-item,
+.pricing-item.popular,
+.dark-bg-light .topic-item {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.dark-bg-light .topic-item:hover,
+.dark-bg-light .feature-style-2:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.dark-theme .header-socials a {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.22);
+}
