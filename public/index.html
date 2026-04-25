@@ -31,6 +31,18 @@
 
 
     <script src="%PUBLIC_URL%/assets/vendors/jquery/jquery.min.js"></script>
+    <script>
+      (function ($) {
+        if (!$ || !$.fn || !$.fn.load) return;
+        var oldLoad = $.fn.load;
+        $.fn.load = function (arg) {
+          if (typeof arg === "function") {
+            return this.on("load", arg);
+          }
+          return oldLoad.apply(this, arguments);
+        };
+      })(window.jQuery);
+    </script>
     <script src="%PUBLIC_URL%/assets/vendors/bootstrap/bootstrap.js"></script>
     <script src="%PUBLIC_URL%/assets/vendors/counterup/waypoint.js"></script>
     <script src="%PUBLIC_URL%/assets/vendors/slick/slick.js"></script>
