@@ -6,7 +6,7 @@ import routes from './components/pages/index';
 function App() {
 
   return (
-      <BrowserRouter>
+      <BrowserRouter  basename="/book_front/">
           <Routes>
          
             {
@@ -24,4 +24,6 @@ function App() {
 }
 
 export default App;
+
+
 

@@ -2,7 +2,7 @@
   "name": "bookhunt",
   "version": "0.1.1",
   "private": true,
-  "homepage": "/book_front",
+  "homepage": "http://45.63.94.164/book_front",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +10,7 @@
     "i18next": "^25.8.18",
     "jest-watcher": "^27.5.1",
     "react": "^18.2.0",
+    "bootstrap": "^5.3.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^16.5.8",
@@ -34,6 +35,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "overrides": {
+    "mdn-data": "2.0.30"
   },
   "browserslist": {
     "production": [
