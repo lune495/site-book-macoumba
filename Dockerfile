@@ -8,5 +8,5 @@ COPY ./ .
 # RUN npm run build --mode $env
 RUN npm run build
 FROM nginx as production-stage
-COPY --from=build-stage /app/build /app/book_front
+COPY --from=build-stage /app/build /app
 COPY nginx.conf /etc/nginx/nginx.conf
