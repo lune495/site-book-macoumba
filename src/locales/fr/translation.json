@@ -2,7 +2,14 @@
   "header": {
     "home": "Accueil",
     "buyNow": "Acheter maintenant",
-    "language": "Langue"
+    "language": "Langue",
+    "nav": {
+      "about": "A propos",
+      "chapters": "Chapitres",
+      "author": "Auteur",
+      "contact": "Contact",
+      "testimonial": "Temoignage"
+    }
   },
   "banner": {
     "subheading": "Roman historique et fiction littéraire",
@@ -18,20 +25,20 @@
     }
   },
   "feature2": {
-    "title": "À qui s'adresse ce livre",
-    "description": "De par sa technique d'écriture conceptuelle, Dieng préfère transporter son lectorat dans une série de dénouements spectaculaires et de rebondissements sans fin, le tout étayé par une belle intrigue fortement structurée.",
+    "title": "Pour qui est ce livre",
+    "description": "Un roman historique et litteraire concu pour les lecteurs en quete de sens, d'emotion et de profondeur narrative.",
     "items": {
       "entrepreneurs": {
-        "title": "Entrepreneurs",
-        "text": "Des idées claires pour mieux décider et accélérer votre progression."
+        "title": "Passionnes de litterature",
+        "text": "Pour celles et ceux qui aiment les recits denses, la finesse du style et les personnages qui marquent durablement."
       },
       "projectManagers": {
-        "title": "Chefs de projet",
-        "text": "Des méthodes pratiques pour mieux organiser, piloter et livrer."
+        "title": "Chercheurs et universitaires",
+        "text": "Une matiere riche pour explorer les liens entre histoire, fiction et regard critique sur la societe."
       },
       "students": {
-        "title": "Étudiants",
-        "text": "Des bases solides et applicables pour progresser plus vite."
+        "title": "Jeunes lecteurs curieux",
+        "text": "Un livre accessible et profond pour developper la culture litteraire et le gout d'une lecture exigeante."
       }
     }
   },
@@ -176,7 +183,82 @@
       "Je me souviens du conteur racontant les exploits de Jack l’Éventreur,",
       "le célèbre tueur en série resté non identifié sous son tablier de cuir.",
       "Alors souvenez-vous toujours des ombres de la mort qui persistent encore,",
-      "étanchant sans fin leur soif éternelle de pouvoir."
+      "étanchant sans fin leur soif éternelle de pouvoir.",
+      " ",
+      "POEME : Les Survivants Maudits",
+      "Une quête vitale de renouveau,",
+      "Renouveau d'un paradis perdu,",
+      "Pour des âmes floues qui s'amenuisent à tout prix,",
+      "Et qui déclinent dans l'ultime temps de l'épreuve.",
+      " ",
+      "Si assaillies de doutes,",
+      "Rassemblées dans un artifice de peurs,",
+      "Artifice d'exploits vains et de larmes,",
+      "Quand elles sont bousculées et malmenées de toutes parts.",
+      " ",
+      "Avec des cœurs ternes et maculés,",
+      "Elles cherchent des bribes de terres,",
+      "Pour esquiver des traits perforants,",
+      "Entre ciel et terre, sans aucun appui.",
+      " ",
+      "Dans un silence maladroit et lugubre,",
+      "Méditant sur une scène fétide de pestilence,",
+      "D'un flux innombrable d'âmes aveugles,",
+      "Restant instables dans la souillure.",
+      " ",
+      "Un flot de gens entravés, alignés,",
+      "Des gens descendant en pente vers la mer,",
+      "Après une vague et un ressac,",
+      "Fixant au loin des baleines échouées en supplication.",
+      " ",
+      "Piétinant et se débattant,",
+      "Le long des rivages,",
+      "Repoussant galets et gravillons,",
+      "Ils tentaient désespérément de résoudre des énigmes,",
+      "Quand un vent paresseux et brumeux gémissait.",
+      " ",
+      "Le temps semblait être un guérisseur,",
+      "Guérisseur dans leur esprit engourdi,",
+      "Véritables victimes d'un conteur,",
+      "Ils ont fini par devenir aveugles.",
+      " ",
+      "Entraînés en enfer,",
+      "Ils étaient sous l'emprise d'un fantôme,",
+      "Dans une situation misérable,",
+      "Sabotant leurs tentatives de lutte.",
+      " ",
+      "Leurs paroles vagabondes,",
+      "À travers un brouhaha de sons,",
+      "Comme des volailles parmi des meutes de chiens,",
+      "Ils se sont dressés pour vaincre à l'affût.",
+      " ",
+      "Une chute, faux pas à chacun de leurs pas,",
+      "Un appel qui n'était nullement un rappel,",
+      "Par égard pour les temps anciens,",
+      "Aidez-les à se secouer.",
+      " ",
+      "Comme l'orgueil sait se prêter à l'éloge,",
+      "Être célébré après un si lourd tribut,",
+      "Avec des gestes, avec les mains,",
+      "Avec des jambes lancées à travers les terres.",
+      " ",
+      "La vérité, tant de vérité,",
+      "Tel un éclat cristallin éblouissant,",
+      "Brillant sur leur passé obscur",
+      "Et c'est dans de telles métaphores qu'ils rêvent.",
+      " ",
+      "Cloîtrés ostensiblement dans la réclusion,",
+      "Leurs tripes et leur courage raffermis,",
+      "À peine élevés comme un appât puis hissés,",
+      "Ils se balancèrent et foulèrent une immense profusion.",
+      " ",
+      "Dans un souffle irrégulier,",
+      "Des cœurs haletants et battants,",
+      "Des cœurs remplis de larmes,",
+      "Des larmes versées sur un sol stérile.",
+      " ",
+      "Macoumba DIENG",
+      "Romancier/Poète"
     ]
   },
   "cta": {
@@ -308,5 +390,105 @@
     "messagePlaceholder": "Votre message",
     "note": "* Rassurez-vous. Nous n'envoyons pas de spam.",
     "send": "Envoyer le message"
+  },
+  "resumeShowcase": {
+    "badge": "Profil Executif",
+    "title": "CV Professionnel",
+    "intro": "Consultez le parcours de Macoumba Dieng dans une experience premium avec ouverture animee.",
+    "openCta": "Ouvrir le CV interactif",
+    "closeCta": "Fermer",
+    "downloadCta": "Telecharger le CV original (.docx)",
+    "filePath": "/assets/docs/Resume-Macoumba-Dieng.docx",
+    "tabs": {
+      "profile": "Profil",
+      "experience": "Experience",
+      "education": "Formation",
+      "skills": "Competences"
+    },
+    "profile": {
+      "name": "Macoumba Dieng",
+      "headline": "Operations Manager - Commerce, Investissement et Developpement de marche",
+      "summary": "Profil senior avec une experience multi-pays en pilotage des operations, conseil en commerce international, facilitation de l'investissement et strategie de distribution.",
+      "contact": {
+        "phoneLabel": "Telephone",
+        "phone": "+221 77 865 02 91",
+        "emailLabel": "Email",
+        "email": "hawadiengkhadijah@gmail.com"
+      },
+      "highlights": [
+        "Management operationnel et optimisation de la chaine logistique",
+        "Conseil commerce et investissement au niveau diplomatique",
+        "Intelligence de marche, developpement commercial et reporting strategique"
+      ]
+    },
+    "experience": {
+      "items": [
+        {
+          "period": "Depuis mai 2023",
+          "role": "Operations Manager",
+          "company": "Societe Internationale de Distribution de Fruits (SIDF), Dakar",
+          "summary": "Supervise les operations quotidiennes, la qualite, la logistique, les previsions budgetaires et la gestion des equipes pour assurer une execution fiable."
+        },
+        {
+          "period": "Dec 2020 - Mai 2023",
+          "role": "Trade and Investment Adviser",
+          "company": "Department of International Trade, Ambassade du Royaume-Uni a Dakar",
+          "summary": "A promu les echanges UK-Senegal, facilite des missions d'investissement, coordonne avec les institutions publiques et privees, et produit des analyses de marche."
+        },
+        {
+          "period": "Jan 2005 - Nov 2020",
+          "role": "Marketing Officer",
+          "company": "Economic Office, Ambassade d'Afrique du Sud a Dakar",
+          "summary": "A pilote des actions de promotion commerciale, organise des missions et salons, coordonne des partenariats et appuye des negociations bilingues."
+        },
+        {
+          "period": "Postes precedents",
+          "role": "International Distribution Manager / Head of Trade Section",
+          "company": "Wrigley Confectionery Company / Chambre Nationale des Metiers du Senegal",
+          "summary": "A gere la strategie de distribution nationale, le developpement des canaux, le reporting et les programmes commerciaux institutionnels."
+        }
+      ]
+    },
+    "education": {
+      "items": [
+        {
+          "period": "2000 - 2002",
+          "title": "Executive MBA in Business Administration",
+          "school": "Graduate Management Institute, Dakar"
+        },
+        {
+          "period": "1997 - 1999",
+          "title": "Graduate Diploma in Management (Distinction)",
+          "school": "Graduate Management Institute, Dakar"
+        },
+        {
+          "period": "1997 - 1999",
+          "title": "Bachelor Diploma of Business Administration (BBA)",
+          "school": "Graduate Management Institute, Dakar"
+        },
+        {
+          "period": "1996 - 1997",
+          "title": "Bachelor in English Language (English Civilization)",
+          "school": "Universite Cheikh Anta Diop"
+        }
+      ]
+    },
+    "skills": {
+      "items": [
+        "Leadership operationnel et optimisation des processus",
+        "Facilitation commerciale et conseil en investissement",
+        "Recherche de marche et rapports d'intelligence economique",
+        "Coordination des parties prenantes publiques et privees",
+        "Encadrement, recrutement et formation des equipes"
+      ]
+    },
+    "languages": {
+      "title": "Langues",
+      "items": [
+        "Anglais : tres bon niveau",
+        "Espagnol : niveau moyen",
+        "Francais : professionnel"
+      ]
+    }
   }
 }

@@ -74,6 +74,35 @@ code {
   line-height: 1.75;
 }
 
+.poem-reveal-tabs {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.poem-reveal-tab {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(240, 247, 255, 0.92);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  transition: all 0.25s ease;
+}
+
+.poem-reveal-tab:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.poem-reveal-tab.is-active {
+  border-color: rgba(255, 209, 140, 0.62);
+  background: linear-gradient(120deg, #ffd37f, #ffb766);
+  color: #0f141f;
+}
+
 .poem-reveal-toggle {
   margin-top: 26px;
   border: 0;
@@ -112,7 +141,7 @@ code {
 .poem-reveal-content.is-open {
   grid-template-rows: 1fr;
   opacity: 1;
-  margin-top: 24px;
+  margin-top: 18px;
 }
 
 .poem-reveal-content-inner {
@@ -135,6 +164,269 @@ code {
   word-spacing: -0.02em;
 }
 
+.poem-reveal-poem + .poem-reveal-poem {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.poem-reveal-poem-title {
+  margin: 0 0 14px;
+  color: #ffd18c;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.poem-reveal-break {
+  height: 8px;
+}
+
+.poem-reveal-panel {
+  margin-top: 0;
+}
+
+body.resume-modal-open {
+  overflow: hidden;
+}
+
+.resume-showcase-card {
+  position: relative;
+  border-radius: 24px;
+  padding: 34px;
+  background: linear-gradient(135deg, #0f1f35 0%, #162c49 100%);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 24px 50px rgba(6, 10, 20, 0.32);
+}
+
+.resume-showcase-head {
+  margin-bottom: 22px;
+}
+
+.resume-showcase-badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #112038;
+  background: linear-gradient(120deg, #ffd37f, #ffb766);
+}
+
+.resume-showcase-title {
+  color: #f7fbff;
+  margin-bottom: 10px;
+}
+
+.resume-showcase-intro {
+  color: rgba(236, 243, 252, 0.9);
+  margin-bottom: 0;
+}
+
+.resume-showcase-profile {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.resume-name {
+  color: #ffd18c;
+  margin-bottom: 8px;
+}
+
+.resume-role {
+  color: rgba(242, 247, 255, 0.95);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.resume-contact {
+  margin-bottom: 6px;
+  color: rgba(239, 246, 255, 0.88);
+}
+
+.resume-showcase-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 230px;
+}
+
+.resume-open-btn,
+.resume-download-link {
+  border-radius: 12px;
+  padding: 11px 16px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.resume-open-btn {
+  border: 0;
+  color: #0e1930;
+  background: linear-gradient(120deg, #ffd37f, #ffb766);
+}
+
+.resume-open-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(255, 183, 102, 0.34);
+}
+
+.resume-download-link {
+  color: #f7fbff;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.resume-download-link:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.resume-highlight-list {
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(237, 244, 255, 0.88);
+  line-height: 1.8;
+}
+
+.resume-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(4, 8, 16, 0.74);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.32s ease;
+}
+
+.resume-modal-backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.resume-modal-shell {
+  width: min(980px, 100%);
+  max-height: 88vh;
+  overflow: auto;
+  border-radius: 22px;
+  padding: 24px;
+  background: linear-gradient(135deg, #f8f4ef 0%, #f3eee7 100%);
+  color: #1f2937;
+  box-shadow: 0 26px 52px rgba(0, 0, 0, 0.33);
+  transform: translateY(24px) scale(0.97);
+  opacity: 0;
+  transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.28s ease;
+}
+
+.resume-modal-backdrop.is-open .resume-modal-shell {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.resume-modal-close {
+  border: 0;
+  border-radius: 10px;
+  padding: 9px 12px;
+  margin-left: auto;
+  display: block;
+  background: #1f2937;
+  color: #f9fafb;
+  font-weight: 600;
+}
+
+.resume-modal-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+
+.resume-tab {
+  border: 1px solid #c9bca8;
+  background: #f8f2e8;
+  color: #4b5563;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-weight: 700;
+  transition: all 0.22s ease;
+}
+
+.resume-tab.is-active {
+  color: #1b2b44;
+  border-color: #f0b45d;
+  background: linear-gradient(120deg, #ffd37f, #ffb766);
+}
+
+.resume-modal-panel {
+  background: linear-gradient(135deg, #0f1f35 0%, #162c49 100%);;
+  border-radius: 16px;
+  padding: 18px;
+  border: 1px solid #efe7da;
+}
+
+.resume-panel-block h4 {
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.resume-entry {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee4d5;
+}
+
+.resume-entry:last-child {
+  border-bottom: 0;
+}
+
+.resume-entry-meta {
+  margin: 0 0 6px;
+  color: #9c6f2f;
+  font-weight: 700;
+}
+
+.resume-entry h5 {
+  margin: 0 0 4px;
+  color: #111827;
+}
+
+.resume-entry-company {
+  margin: 0 0 8px;
+  color: #374151;
+  font-weight: 600;
+}
+
+.resume-bullet-list {
+  padding-left: 18px;
+  margin-bottom: 12px;
+}
+
+.resume-bullet-list-contrast {
+  color: #ffffff;
+  background: #1f2937;
+  border-radius: 12px;
+  padding: 14px 18px 14px 34px;
+  margin-bottom: 14px;
+}
+
+.resume-bullet-list-contrast li {
+  color: #ffffff;
+}
+
+.resume-subtitle {
+  margin-top: 16px;
+}
+
 .poem-reveal-signature {
   margin: 18px 0 0;
   color: #ffd18c;
@@ -155,6 +447,29 @@ code {
   .poem-reveal-line {
     font-size: 15px;
     line-height: 1.65;
+  }
+
+  .resume-showcase-card {
+    padding: 24px 18px;
+    border-radius: 18px;
+  }
+
+  .resume-showcase-profile {
+    flex-direction: column;
+  }
+
+  .resume-showcase-actions {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .resume-modal-backdrop {
+    padding: 10px;
+  }
+
+  .resume-modal-shell {
+    padding: 16px;
+    border-radius: 16px;
   }
 }
 
@@ -213,4 +528,31 @@ code {
 .dark-theme .header-socials a {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.22);
+}
+
+/* Ensure primary action buttons stay visible in dark theme */
+.dark-theme .header-right-info .btn.btn-dark-bg {
+  background: #ff4343;
+  border-color: #ff4343;
+  color: #ffffff;
+}
+
+.dark-theme .header-right-info .btn.btn-dark-bg:hover {
+  background: #ff5d5d;
+  border-color: #ff5d5d;
+  color: #ffffff;
+}
+
+.cta .btn.btn-main,
+.contact .btn.btn-main-2 {
+  background: #ff4343;
+  border-color: #ff4343;
+  color: #ffffff;
+}
+
+.cta .btn.btn-main:hover,
+.contact .btn.btn-main-2:hover {
+  background: #5454dc;
+  border-color: #5454dc;
+  color: #ffffff;
 }

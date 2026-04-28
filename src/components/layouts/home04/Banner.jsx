@@ -33,7 +33,7 @@ class Banner extends Component {
     render() {
         const { t } = this.props;
         return (
-            <section className="banner pb-80 dark-bg">
+            <section className="banner pb-80 dark-bg" id="home">
                 <div className="container">
                     <div className="row align-items-center justify-content-between">
                         <div className="col-lg-6">

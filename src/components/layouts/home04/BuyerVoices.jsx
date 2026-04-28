@@ -75,7 +75,7 @@ class BuyerVoices extends Component {
         };
 
         return (
-            <section className="section-padding dark-bg-light" id="buyer-voices">
+            <section className="section-padding dark-bg-light" id="testimonial">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-8">

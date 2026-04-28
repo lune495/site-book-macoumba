@@ -2,7 +2,14 @@
   "header": {
     "home": "Home",
     "buyNow": "Get it now",
-    "language": "Language"
+    "language": "Language",
+    "nav": {
+      "about": "About",
+      "chapters": "Chapters",
+      "author": "Author",
+      "contact": "Contact",
+      "testimonial": "Testimonial"
+    }
   },
   "banner": {
     "subheading": "Historical fiction and literary storytelling",
@@ -19,19 +26,19 @@
   },
   "feature2": {
     "title": "Who This Book Is For",
-    "description": "As Jamal embraces his environment, he faces unexpected adversities that disrupt his peaceful existence. Drawing strength from his cultural heritage and moral values, he pursues knowledge and achieves academic excellence. His intelligence and leadership qualities empower him to rise within a traditional society, ultimately leading him to postgraduate studies at a prestigious university in northern Europe.",
+    "description": "A historical and literary novel crafted for readers seeking meaning, emotion, and narrative depth.",
     "items": {
       "entrepreneurs": {
-        "title": "Entrepreneurs",
-        "text": "Clear ideas to make better decisions and move faster."
+        "title": "Literature Enthusiasts",
+        "text": "For readers who value layered storytelling, refined writing, and memorable characters."
       },
       "projectManagers": {
-        "title": "Project Managers",
-        "text": "Practical methods to plan, lead, and deliver effectively."
+        "title": "Researchers and Academics",
+        "text": "A rich body of material to explore the dialogue between history, fiction, and social insight."
       },
       "students": {
-        "title": "Students",
-        "text": "Strong and actionable foundations to progress faster."
+        "title": "Curious Young Readers",
+        "text": "An accessible yet profound work to strengthen literary culture and critical reading habits."
       }
     }
   },
@@ -176,7 +183,82 @@
       "I remember the storyteller narrating the feats of Jack the ripper,",
       "the famous unidentified serial killer under his leather apron.",
       "So always, remember the shadows of death lingering on and on",
-      "to quench their everlasting thirst for power."
+      "to quench their everlasting thirst for power.",
+      " ",
+      "POEM: Damned Survivors",
+      "A vital quest for revival,",
+      "Revival of a paradise lost,",
+      "For blurred souls dwindling at any cost,",
+      "And waning in an ultimate time of trial.",
+      " ",
+      "So beset with doubts,",
+      "Gathered in an artifice of fears,",
+      "Artifice of vain feats and tears,",
+      "When jostled and hustled about.",
+      " ",
+      "With drab and smeared hearts,",
+      "Seek for snatches of grounds,",
+      "To dodge riddling darts,",
+      "Between heaven and earth for no grounds.",
+      " ",
+      "With an awkward and spooky silence,",
+      "Brooding over a filthy scene of pestilence,",
+      "Of innumerable flow of blind souls,",
+      "Remaining unsteady in fouls.",
+      " ",
+      "A flow of fettered people in a row,",
+      "People sloping down to the sea,",
+      "After a surge and undertow,",
+      "Gazed at far stranded whales in plea.",
+      " ",
+      "Tramping and scrambling,",
+      "All along seashores,",
+      "Thrusting aside shingles and pebbles,",
+      "Tried desperately to crack riddles,",
+      "When a lazy and hazy wind was wailing.",
+      " ",
+      "Time seemed to be a healer,",
+      "Healer in their sluggish mind,",
+      "Real victims of a storyteller,",
+      "They have ultimately turned blind.",
+      " ",
+      "Driven into hell,",
+      "They were under a ghost's spell,",
+      "Within a sorry plight,",
+      "Play havoc with their attempts to fight.",
+      " ",
+      "Their meandering talks,",
+      "All through a babble of sounds,",
+      "Like fowls among mobs of hounds,",
+      "They uprose to vanquish in stalk.",
+      " ",
+      "A fall shortfall at their footfall,",
+      "A call that was not at all a recall,",
+      "For old times' sake,",
+      "Help them to shake.",
+      " ",
+      "How pride is good for extol,",
+      "To be praised after such a toll,",
+      "With gestures, with hands,",
+      "With legs thrown about in lands.",
+      " ",
+      "Truth, so much truth,",
+      "As a dazzling crystalline gleam,",
+      "Shining over their murky past",
+      "And in such metaphors they dream.",
+      " ",
+      "Cloistered blatantly in reclusion,",
+      "Their guts and courage braced up,",
+      "Just raised to the bait and hoisted up,",
+      "Swang and trod into huge profusion.",
+      " ",
+      "In an unevenly breath,",
+      "Heaving throbbing hearts,",
+      "Hearts filled with tears,",
+      "Tears shed on a barren soil.",
+      " ",
+      "Macoumba DIENG",
+      "Novelist/Poet"
     ]
   },
   "cta": {
@@ -308,5 +390,105 @@
     "messagePlaceholder": "Your message",
     "note": "* Rest assured. We will not spam your inbox.",
     "send": "Send message"
+  },
+  "resumeShowcase": {
+    "badge": "Executive Profile",
+    "title": "Professional Resume",
+    "intro": "Access a structured overview of Macoumba Dieng's background with a premium animated experience.",
+    "openCta": "Open interactive resume",
+    "closeCta": "Close",
+    "downloadCta": "Download original CV (.docx)",
+    "filePath": "/assets/docs/Resume-Macoumba-Dieng.docx",
+    "tabs": {
+      "profile": "Profile",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills"
+    },
+    "profile": {
+      "name": "Macoumba Dieng",
+      "headline": "Operations Manager - Trade, Investment and Market Development",
+      "summary": "Senior profile with multi-country experience in operations leadership, international trade advisory, investment facilitation and distribution strategy.",
+      "contact": {
+        "phoneLabel": "Phone",
+        "phone": "+221 77 865 02 91",
+        "emailLabel": "Email",
+        "email": "hawadiengkhadijah@gmail.com"
+      },
+      "highlights": [
+        "Operations management and supply chain optimization",
+        "Embassy-level advisory in trade and investment",
+        "Market intelligence, business development and strategic reporting"
+      ]
+    },
+    "experience": {
+      "items": [
+        {
+          "period": "Since May 2023",
+          "role": "Operations Manager",
+          "company": "Societe Internationale de Distribution de Fruits (SIDF), Dakar",
+          "summary": "Oversees daily operations, quality control, logistics, budget forecasting and team management to ensure reliable service delivery."
+        },
+        {
+          "period": "Dec 2020 - May 2023",
+          "role": "Trade and Investment Adviser",
+          "company": "Department of International Trade, UK Embassy in Dakar",
+          "summary": "Promoted UK trade in Senegal, facilitated investment missions, coordinated with government and private institutions, and produced market intelligence for exporters and investors."
+        },
+        {
+          "period": "Jan 2005 - Nov 2020",
+          "role": "Marketing Officer",
+          "company": "Economic Office, South African Embassy in Dakar",
+          "summary": "Led trade promotion initiatives, organized missions and trade events, coordinated partnerships and delivered bilingual support in strategic business engagements."
+        },
+        {
+          "period": "Previous roles",
+          "role": "International Distribution Manager / Head of Trade Section",
+          "company": "Wrigley Confectionery Company / National Chamber of Crafts, Senegal",
+          "summary": "Managed national distribution strategy, channel development, reporting and institutional trade programs at national and international levels."
+        }
+      ]
+    },
+    "education": {
+      "items": [
+        {
+          "period": "2000 - 2002",
+          "title": "Executive MBA in Business Administration",
+          "school": "Graduate Management Institute, Dakar"
+        },
+        {
+          "period": "1997 - 1999",
+          "title": "Graduate Diploma in Management (Distinction)",
+          "school": "Graduate Management Institute, Dakar"
+        },
+        {
+          "period": "1997 - 1999",
+          "title": "Bachelor Diploma of Business Administration (BBA)",
+          "school": "Graduate Management Institute, Dakar"
+        },
+        {
+          "period": "1996 - 1997",
+          "title": "Bachelor in English Language (English Civilization)",
+          "school": "Cheikh Anta Diop University"
+        }
+      ]
+    },
+    "skills": {
+      "items": [
+        "Operational leadership and process optimization",
+        "Trade facilitation and investment advisory",
+        "Market research and intelligence reporting",
+        "Stakeholder coordination across public and private sectors",
+        "Team supervision, hiring and training"
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [
+        "English: very good command",
+        "Spanish: fair",
+        "French: professional"
+      ]
+    }
   }
 }

@@ -11,7 +11,8 @@ import Cta from './Cta';
 import Contact from './Contact';
 import BuyerVoices from './BuyerVoices';
 import PoemReveal from './PoemReveal';
+import ResumeShowcase from './ResumeShowcase';
 import Footer from './Footer'
 	
 export {Header, Banner,Chapter, About, Features, Feature2,Cta,Review, Author,Pricing,
-    Contact,BuyerVoices,PoemReveal,Footer}
+    Contact,BuyerVoices,PoemReveal,ResumeShowcase,Footer}

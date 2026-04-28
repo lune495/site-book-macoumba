@@ -2,13 +2,19 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-import links from '../links';
 import menus from '../menus2';
 import { withTranslation } from "react-i18next";
 
 class Header extends Component {
     render() {
         const { t, i18n } = this.props;
+        const menuLabelByAnchor = {
+            '#about': 'header.nav.about',
+            '#chapters': 'header.nav.chapters',
+            '#author': 'header.nav.author',
+            '#contact': 'header.nav.contact'
+        };
+
         return (
             <header className="main-header">
                 <div className="site-navigation main_menu" id="mainmenu-area">
@@ -23,29 +29,25 @@ class Header extends Component {
                            
                             <div className="collapse navbar-collapse" id="navbarMenu">
                                 <ul className="navbar-nav me-auto">
-                                    <li className="nav-item dropdown">
-                                        <Link to="#" className="nav-link dropdown-toggle"  
-                                            id="navbar2" role="button" data-toggle="dropdown" aria-haspopup="true" 
-                                            aria-expanded="false">{t("header.home")} <i className="fa fa-angle-down"></i>
-                                        </Link>
-                                        <ul className="dropdown-menu" >
-                                            {
-                                                links.map((data,i) => (
-                                                    
-                                                    <Link key={i} className="dropdown-item" to={data.tolink} onClick={() => {window.location.href=data.tolink}}>
-                                                        {data.namelink}
-                                                    </Link>
-                                                ))
-                                            }
-                                        </ul>
+                                    <li className="nav-item">
+                                        <HashLink to="#home" className="nav-link js-scroll-trigger">
+                                            {t("header.home")}
+                                        </HashLink>
                                     </li>
-
-                                    {
-                                        menus.map((menu,i) => (
-                                            <li className="nav-item " key={i}><HashLink to={menu.tomenu} className="nav-link js-scroll-trigger">{menu.namemenu}</HashLink></li>
-                                        ))
-                                    }  
-                                    
+                                    {menus
+                                        .filter((menu) => menu.tomenu !== '#testimonial')
+                                        .map((menu, i) => (
+                                            <li className="nav-item" key={i}>
+                                                <HashLink to={menu.tomenu} className="nav-link js-scroll-trigger">
+                                                    {t(menuLabelByAnchor[menu.tomenu] || 'header.home')}
+                                                </HashLink>
+                                            </li>
+                                        ))}
+                                    <li className="nav-item">
+                                        <HashLink to="#testimonial" className="nav-link js-scroll-trigger">
+                                            {t('header.nav.testimonial')}
+                                        </HashLink>
+                                    </li>
                                 </ul>
                             </div> 
 
