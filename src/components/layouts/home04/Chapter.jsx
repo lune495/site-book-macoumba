@@ -20,7 +20,7 @@ class Chapter extends Component {
 
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
-                        <ContainerLeft />
+                        {/* <ContainerLeft /> */}
                     </div>
 {/* 
                     <div className="col-lg-4 col-md-6">

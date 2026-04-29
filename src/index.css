@@ -22,6 +22,128 @@ code {
   word-spacing: -0.04em;
 }
 
+.profile-popup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 40%, rgba(255, 196, 122, 0.18), rgba(5, 9, 17, 0.88) 62%);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  animation: profilePopupFadeIn 0.55s ease forwards;
+}
+
+.profile-popup-overlay.is-closing {
+  animation: profilePopupFadeOut 0.9s ease forwards;
+}
+
+.profile-popup-card {
+  position: relative;
+  width: min(460px, calc(100% - 28px));
+  border-radius: 26px;
+  padding: 26px 22px 24px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(150deg, rgba(18, 30, 50, 0.98), rgba(13, 23, 40, 0.95));
+  box-shadow: 0 26px 65px rgba(0, 0, 0, 0.48);
+  transform: translateY(22px) scale(0.9);
+  animation: profilePopupCardIn 0.95s cubic-bezier(0.2, 0.88, 0.3, 1.2) forwards;
+}
+
+.profile-popup-overlay.is-closing .profile-popup-card {
+  animation: profilePopupCardOut 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.profile-popup-glow {
+  position: absolute;
+  inset: -36% -20% auto;
+  height: 240px;
+  background: radial-gradient(circle, rgba(255, 185, 100, 0.56) 0%, rgba(255, 185, 100, 0) 68%);
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.profile-popup-image {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  border: 5px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0 9px rgba(255, 184, 106, 0.2), 0 18px 36px rgba(2, 6, 14, 0.5);
+  animation: profilePopupPulse 1.9s ease-in-out infinite;
+}
+
+.profile-popup-text {
+  position: relative;
+  z-index: 2;
+  margin: 18px auto 0;
+  max-width: 330px;
+  color: #f7fbff;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+@keyframes profilePopupFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes profilePopupFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes profilePopupCardIn {
+  0% {
+    transform: translateY(32px) scale(0.84) rotateX(10deg);
+    opacity: 0;
+  }
+  55% {
+    transform: translateY(-8px) scale(1.02) rotateX(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes profilePopupCardOut {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px) scale(0.84);
+    opacity: 0;
+  }
+}
+
+@keyframes profilePopupPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
 .poem-reveal-card {
   position: relative;
   padding: 40px 34px;
@@ -554,5 +676,43 @@ body.resume-modal-open {
 .contact .btn.btn-main-2:hover {
   background: #5454dc;
   border-color: #5454dc;
+  color: #ffffff;
+}
+
+/* Match home04 CTA buttons with navbar "Acheter maintenant" color */
+.dark-theme .banner .btn.btn-main,
+.dark-theme .about-section .btn.btn-main-2 {
+  background: #ff4343;
+  border-color: #ff4343;
+  color: #ffffff;
+}
+
+.dark-theme .banner .btn.btn-main:hover,
+.dark-theme .about-section .btn.btn-main-2:hover {
+  background: #ff5d5d;
+  border-color: #ff5d5d;
+  color: #ffffff;
+}
+
+/* Pricing cards: keep CTA buttons aligned and color-consistent */
+.dark-theme .pricing .pricing-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-theme .pricing .pricing-footer {
+  margin-top: auto;
+}
+
+.dark-theme .pricing .btn.btn-main-2 {
+  background: #ff4343;
+  border-color: #ff4343;
+  color: #ffffff;
+}
+
+.dark-theme .pricing .btn.btn-main-2:hover {
+  background: #ff5d5d;
+  border-color: #ff5d5d;
   color: #ffffff;
 }

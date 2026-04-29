@@ -41,7 +41,7 @@ class About extends Component {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="section-heading">
-                            <span className="subheading">{t("about.subheading")}</span>
+                            {/* <span className="subheading">{t("about.subheading")}</span> */}
                             <h3 className="heading-title">{t("about.title")}</h3>
                             <p className="tight-copy">{t("about.description")}</p>
                         </div>
