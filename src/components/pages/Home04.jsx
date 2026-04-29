@@ -13,8 +13,8 @@ class Home02 extends Component {
                         <Features />
                         <Chapter />
                         <PoemReveal />
-                        <Cta />
                         <BuyerVoices />
+                        <Cta />
                         {/* <Review /> */}
                         <Author />
                         <ResumeShowcase />

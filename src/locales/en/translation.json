@@ -490,5 +490,22 @@
         "French: professional"
       ]
     }
+  },
+  "footer": {
+    "brand": "Macoumba Dieng",
+    "description": "Author, novelist, and poet. This website showcases his literary works, poetry, and professional background.",
+    "informationTitle": "Information",
+    "links": {
+      "aboutBook": "About the book",
+      "poetry": "Poetry section",
+      "resume": "Professional resume",
+      "contact": "Contact the author"
+    },
+    "contact": {
+      "phone": "+221 77 865 02 91",
+      "location": "Rufisque, Senegal",
+      "email": "hawadiengkhadijah@gmail.com"
+    },
+    "copyright": "? 2026 Macoumba Dieng. All rights reserved."
   }
 }

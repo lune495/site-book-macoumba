@@ -1,38 +1,40 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import { withTranslation } from 'react-i18next';
 
 class Footer extends Component {
     render() {
+        const { t } = this.props;
         return (          
             <section className="footer pt-120 dark-bg">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 me-auto col-sm-6 col-md-12">
                             <div className="widget footer-widget mb-5 mb-lg-0">
-                                <h5 className="widget-title">BookHunt</h5>
-                                <p className="mt-3">Veniam Sequi molestias aut necessitatibus optio magni at natus accusamus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, obcaecat .</p>
+                                <h5 className="widget-title">{t('footer.brand')}</h5>
+                                <p className="mt-3">{t('footer.description')}</p>
                             </div>
                         </div>
                         
                         <div className="col-lg-6 col-sm-6 col-md-12">
                             <div className="footer-widget mb-5 mb-lg-0">
-                                <h5 className="widget-title">Information</h5>
+                                <h5 className="widget-title">{t('footer.informationTitle')}</h5>
                             </div>
                             <div className="row">
                                 <div className="col-lg-5 col-md-6">
                                     <ul className="list-unstyled footer-links">
-                                        <li><Link to="#">SEO Business</Link></li>
-                                        <li><Link to="#">Digital Marketing</Link></li>
-                                        <li><Link to="#">Graphic Design</Link></li>
-                                        <li><Link to="#">Site Development</Link></li>
+                                        <li><HashLink to="#about">{t('footer.links.aboutBook')}</HashLink></li>
+                                        <li><HashLink to="#poem">{t('footer.links.poetry')}</HashLink></li>
+                                        <li><HashLink to="#resume">{t('footer.links.resume')}</HashLink></li>
+                                        <li><HashLink to="#contact">{t('footer.links.contact')}</HashLink></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="footer-widget footer-contact mb-5 mb-lg-0">
                                         <ul className="list-unstyled">
-                                            <li>+221 77 865 02 91</li>
-                                            <li></li>
-                                            <li>info@example.com</li>
+                                            <li>{t('footer.contact.phone')}</li>
+                                            <li>{t('footer.contact.location')}</li>
+                                            <li>{t('footer.contact.email')}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -46,7 +48,7 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="copyright">
-                                    <p>@ 2023-Copyright reserved to BooHunt.Proudly Crafted by <Link to="https://themeforest.net/user/pxelcode">Pxelcode</Link> </p>
+                                    <p>{t('footer.copyright')}</p>
                                 </div>
                             </div>
                         </div>
@@ -65,4 +67,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer;
+export default withTranslation()(Footer);

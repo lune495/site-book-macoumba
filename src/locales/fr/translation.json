@@ -490,5 +490,22 @@
         "Francais : professionnel"
       ]
     }
+  },
+  "footer": {
+    "brand": "Macoumba Dieng",
+    "description": "Auteur, romancier et poete. Ce site presente ses oeuvres litteraires, ses poemes et son parcours professionnel.",
+    "informationTitle": "Informations",
+    "links": {
+      "aboutBook": "A propos du livre",
+      "poetry": "Rubrique poesie",
+      "resume": "CV professionnel",
+      "contact": "Contacter l'auteur"
+    },
+    "contact": {
+      "phone": "+221 77 865 02 91",
+      "location": "Rufisque, Senegal",
+      "email": "hawadiengkhadijah@gmail.com"
+    },
+    "copyright": "2026 Golden Tech. Tous droits reserves."
   }
 }
