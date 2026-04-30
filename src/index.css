@@ -419,7 +419,7 @@ body.resume-modal-open {
 .resume-modal-backdrop {
   position: fixed;
   inset: 0;
-  z-index: 1200;
+  z-index: 20000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -440,6 +440,7 @@ body.resume-modal-open {
   width: min(980px, 100%);
   max-height: 88vh;
   overflow: auto;
+  box-sizing: border-box;
   border-radius: 22px;
   padding: 24px;
   background: linear-gradient(135deg, #f8f4ef 0%, #f3eee7 100%);
@@ -461,6 +462,9 @@ body.resume-modal-open {
   padding: 9px 12px;
   margin-left: auto;
   display: block;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   background: #1f2937;
   color: #f9fafb;
   font-weight: 600;
@@ -472,6 +476,7 @@ body.resume-modal-open {
   gap: 10px;
   margin-top: 14px;
   margin-bottom: 18px;
+  max-width: 100%;
 }
 
 .resume-tab {
@@ -482,6 +487,9 @@ body.resume-modal-open {
   padding: 10px 14px;
   font-weight: 700;
   transition: all 0.22s ease;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .resume-tab.is-active {
@@ -587,11 +595,28 @@ body.resume-modal-open {
 
   .resume-modal-backdrop {
     padding: 10px;
+    align-items: flex-start;
+    padding-top: calc(env(safe-area-inset-top, 0px) + 10px);
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 10px);
   }
 
   .resume-modal-shell {
     padding: 16px;
     border-radius: 16px;
+    max-height: calc(100dvh - 20px);
+  }
+
+  .resume-modal-close {
+    top: 2px;
+  }
+
+  .resume-modal-tabs {
+    gap: 8px;
+  }
+
+  .resume-tab {
+    padding: 9px 12px;
+    font-size: 14px;
   }
 }
 

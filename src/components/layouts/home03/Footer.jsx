@@ -9,7 +9,7 @@ class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-4 me-auto col-sm-6 col-md-12">
                             <div className="widget footer-widget mb-5 mb-lg-0">
-                                <h5 className="widget-title">BookHunt</h5>
+                                <h5 className="widget-title">Macoumba Dieng</h5>
                                 <p className="mt-3">Veniam Sequi molestias aut necessitatibus optio magni at natus accusamus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, obcaecat .</p>
                             </div>
                         </div>

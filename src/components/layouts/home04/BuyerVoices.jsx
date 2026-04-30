@@ -31,21 +31,21 @@ class BuyerVoices extends Component {
                     locationKey: 'buyerVoices.items.item3.location',
                     storeKey: 'buyerVoices.items.item3.store'
                 },
+                // {
+                //     id: 4,
+                //     img: './assets/images/clients/Homme-CIV.png',
+                //     name: 'Ibra D.',
+                //     quoteKey: 'buyerVoices.items.item4.quote',
+                //     locationKey: 'buyerVoices.items.item4.location',
+                //     storeKey: 'buyerVoices.items.item4.store'
+                // },
                 {
                     id: 4,
-                    img: './assets/images/clients/Homme-CIV.png',
-                    name: 'Ibra D.',
+                    img: './assets/images/clients/img3.jpeg',
+                    name: 'Phd, Alpha Diedhiou',
                     quoteKey: 'buyerVoices.items.item4.quote',
                     locationKey: 'buyerVoices.items.item4.location',
                     storeKey: 'buyerVoices.items.item4.store'
-                },
-                {
-                    id: 5,
-                    img: './assets/images/clients/img3.jpeg',
-                    name: 'Phd, Alpha Diedhiou',
-                    quoteKey: 'buyerVoices.items.item5.quote',
-                    locationKey: 'buyerVoices.items.item5.location',
-                    storeKey: 'buyerVoices.items.item5.store'
                 }
             ]
         };
